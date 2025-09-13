@@ -1,0 +1,17 @@
+GET http://localhost:3000
+
+###
+
+GET http://localhost:3000/register/mnemonic
+
+###
+
+POST http://localhost:3000/register/validate
+Content-Type: application/json
+Accept: application/json
+
+{
+  "mnemonic": "tired hello glove hamster weapon delay agree there cat alien party burger"
+}
+
+###
